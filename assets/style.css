@@ -1,0 +1,128 @@
+.body{
+
+    background-color: #2C3E50 ;
+}
+
+#hero {
+    height: 600px;
+    
+    
+}
+.text-hero {
+    width: 60%;
+    display: flex;
+    color: white;
+    font-size: large;
+    
+}
+.hero-img {
+    margin: auto;
+    width: 100%;
+    max-width: 550px;
+    max-height: 550px;
+    box-shadow: 0 0 10px gray;
+}
+
+
+
+
+#technologies {
+    height: auto;
+    
+}
+.card {
+    width: 90%;
+    border-radius: 20px;
+}
+.card .card-text {
+    font-weight: 200;
+    color: white;
+}
+.logo-container .logo {
+    width: 80px;
+    background-color: transparent;
+    cursor: pointer;
+}
+    .logo-container .logo:hover {
+        transform: scale(1.5);
+        transition: .3s ease all;
+    }
+.logo-container  {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.logo-container .logo1 {
+    width: 80px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.logo-container .logo1:hover {
+    transform: scale(1.5);
+    transition: .3s ease all;
+}
+
+
+
+#projects-container .project-container {
+    width: 35rem;
+    
+    justify-content: center;
+    background-color: var(--contrast-bg-color);
+    box-shadow: 15px 15px 50px black;
+}
+
+    
+#projects-container .logo {
+    width: 60px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px gray;
+}
+
+#projects-container .logo:hover {
+    transform: scale(1.5);
+    transition: .3s ease all; 
+}
+
+.proye {
+    width: auto;
+}
+
+
+#Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
+  .img-fluid {
+    width: auto ;
+    height: 30px;
+  }
+  
+  .row1 {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+  }
+  
+  
